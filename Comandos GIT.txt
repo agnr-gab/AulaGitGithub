@@ -1,0 +1,219 @@
+20-08-2021
+DESCRIÇÃO
+O Git é um sistema de controle de revisão distribuído, rápido, escalável e com um conjunto de comandos incomumente rico que oferece operações de alto nível e acesso completo aos seus recursos.
+
+Para começar, consulte gittutorial[7] e depois giteveryday[7] para conhecer um conjunto mínimo de comandos uteis. Para uma introdução mais aprofundada acesse o Manual do Usuário do Git.
+
+Depois de dominar os conceitos básicos, é possível voltar para esta página para aprender quais os outros comandos o Git oferece. É possível aprender mais sobre os comandos individuais do Git com o comando "git help nome-do-comando". A página do manual gitcli[7] fornece uma visão geral da sintaxe de comandos da linha de comando.
+
+Uma cópia formatada e com hiperlink da documentação mais recente do Git pode ser visualizada em https://git.github.io/htmldocs/git.html ou https://git-scm.com/docs.
+
+Os principais comandos porcelana
+git-add[1]
+Adiciona o conteúdo dos arquivos ao índice.
+
+git-am[1]
+Aplica uma série de patches vindos de uma caixa de e-mails.
+
+git-archive[1]
+Cria um histórico dos arquivos a partir de uma determinada árvore.
+
+git-bisect[1]
+Utilize a procura binária para localizar o commit que introduziu um bug.
+
+git-branch[1]
+Lista, cria ou exclui os ramos.
+
+git-bundle[1]
+Mova os objetos e as refs através do histórico.
+
+git-checkout[1]
+Mova os ramos ou restaura os arquivos da árvores de trabalho.
+
+git-cherry-pick[1]
+Aplica as mudanças introduzidas por alguns commits já existentes.
+
+git-citool[1]
+Uma alternativa gráfica ao git-commit.
+
+git-clean[1]
+Remove os arquivos da árvore de trabalho sem monitoramento.
+
+git-clone[1]
+Clona um repositório em um novo diretório.
+
+git-commit[1]
+Grava as alterações para o repositório.
+
+git-describe[1]
+Dá a um objeto um nome em um formato legível para humanos com base em um "ref" disponível.
+
+git-diff[1]
+Exiba as alterações entre os commits, o commit, árvore de trabalho, etc.
+
+git-fetch[1]
+Faz o download dos objetos e dos refs vindo de outro repositório.
+
+git-format-patch[1]
+Prepara os patches para serem enviados por e-mail.
+
+git-gc[1]
+Exclui os arquivos desnecessários e otimiza o repositório local.
+
+git-grep[1]
+Imprima as linhas que coincidam com um padrão.
+
+git-gui[1]
+Uma interface gráfica portátil para o Git.
+
+git-init[1]
+Cria um repositório vazio para o Git ou reinicializa um repositório já existente.
+
+git-log[1]
+Exibe os registros logs de um commit.
+
+git-merge[1]
+Une dois ou mais históricos de desenvolvimento juntos.
+
+git-mv[1]
+Move ou renomeia um arquivo, um diretório ou um link simbólico.
+
+git-notes[1]
+Adiciona ou inspeciona as anotações dos objetos.
+
+git-pull[1]
+Capture de e o integre com um outro repositório ou em um outro ramo local.
+
+git-push[1]
+Atualiza os refs remotos através da associação dos objetos.
+
+git-range-diff[1]
+Compara os dois intervalos de um commit (duas versões de um ramo por exemplo).
+
+git-rebase[1]
+Reaplica os commits no topo do outro cume da base.
+
+git-reset[1]
+Redefine o HEAD atual para o para a condição determinada.
+
+git-restore[1]
+Restaura as árvores de trabalho.
+
+git-revert[1]
+Reverte alguns commits já existentes.
+
+git-rm[1]
+Remove os arquivos da árvore de trabalho e do índice.
+
+git-shortlog[1]
+Faça um resumo da saída do git log.
+
+git-show[1]
+Exiba os vários tipos de objetos.
+
+git-sparse-checkout[1]
+Alter e inicialize a averiguação esparsa.
+
+git-stash[1]
+Armazene as alterações em um diretório fora do diretório de trabalho.
+
+git-status[1]
+Exiba a condição atual da árvore de trabalho.
+
+git-submodule[1]
+Inicializa, atualiza ou inspeciona submódulos.
+
+git-switch[1]
+Alterna entre os ramos.
+
+git-tag[1]
+Cria, lista, exclui ou verifica uma tag do objeto com assinatura GPG.
+
+git-worktree[1]
+Manipula as diversas árvores de trabalho.
+
+gitk[1]
+O navegador do repositório Git.
+
+Comandos Auxiliares
+Manipuladores:
+
+git-config[1]
+Obtém e define os repositórios ou as opções globais.
+
+git-fast-export[1]
+Exportador de dados do Git.
+
+git-fast-import[1]
+Estrutura para os importadores de dados rápidos do Git.
+
+git-filter-branch[1]
+Reescreve os ramos.
+
+git-mergetool[1]
+Executa as ferramentas de resolução problemas para resolver os conflitos de mesclagem.
+
+git-pack-refs[1]
+Empacota os cabeçalhos e as tags para um acesso eficiente ao repositório.
+
+git-prune[1]
+Corta todos os objetos fora de alcance do banco de dados de objetos.
+
+git-reflog[1]
+Gerencia as informações do reflog.
+
+git-remote[1]
+Gerencia o conjunto de repositórios monitorados.
+
+git-repack[1]
+Empacota os objetos não empacotados em um repositório.
+
+git-replace[1]
+Cria, lista e exclui os refs para a reposição dos objetos.
+
+Interrogadores:
+
+git-annotate[1]
+Anota as linhas com as informações do commit.
+
+git-blame[1]
+Exibe quais foram as últimas modificações feitas em cada linha de um arquivo separados pela versão da revisão e do autor da modificação.
+
+git-bugreport[1]
+Colete informações para que o usuário envie um relatório de erro.
+
+git-count-objects[1]
+Conta a quantidade dos objetos que não foram empacotados e seu consumo no disco.
+
+git-difftool[1]
+Exibe as mudanças utilizando ferramentas diff tradicionais.
+
+git-fsck[1]
+Verifica a conectividade e validade dos objetos em um banco de dados.
+
+git-help[1]
+Exiba a informação de ajuda sobre o Git.
+
+git-instaweb[1]
+Navegue instantaneamente no seu repositório de trabalho com o gitweb.
+
+git-merge-tree[1]
+Exiba as três maneiras de mesclagem sem mexer no índice.
+
+git-rerere[1]
+Reutilize uma resolução gravada das mesclagens conflitantes.
+
+git-show-branch[1]
+Exiba os ramos e seus respectivos commits.
+
+git-verify-commit[1]
+Verifique a assinatura GPG dos commits.
+
+git-verify-tag[1]
+Verifique a assinatura GPG das tags.
+
+git-whatchanged[1]
+Exiba os registros logs com a diferença entre a introdução de cada commit.
+
+gitweb[1]
+Interface web do Git (frontend web para os repositórios Git).
