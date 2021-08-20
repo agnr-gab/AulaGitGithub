@@ -1,3 +1,4 @@
+20-08-2021
 DESCRIÇÃO
 O Git é um sistema de controle de revisão distribuído, rápido, escalável e com um conjunto de comandos incomumente rico que oferece operações de alto nível e acesso completo aos seus recursos.
 

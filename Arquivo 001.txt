@@ -1,0 +1,5 @@
+1- Todos staged
+2- Mensagem arroz e abobrinha
+3- Nova mensagem Arroz e abobrinha
+4- Adicionar novo arquivo (só colocar em staged mesmo)
+5- Colocar alguma modificação neste ultimo arquivo
