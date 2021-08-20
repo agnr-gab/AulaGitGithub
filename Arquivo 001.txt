@@ -1,4 +1,4 @@
-Primeira alteração arquivo 001
+Primeira alteração arquivo 1
 1- Todos staged
 2- Mensagem arroz e abobrinha
 3- Nova mensagem Arroz e abobrinha
